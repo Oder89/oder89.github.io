@@ -1,0 +1,38 @@
+{
+	"games" : [
+		{
+		    "questions" : [
+		        {
+		            "question" : "Qarğalar orta hesabla neçə il yaşayır??",
+		            "content" : [
+		                "300",
+		                "150",
+		                "200",
+		                "500"
+		            ],
+		            "correct" : 0
+		        },
+				{
+		            "question" : "Qarğalar orta hesabla neçə il yaşayır??",
+		            "content" : [
+		                "300",
+		                "150",
+		                "200",
+		                "500"
+		            ],
+		            "correct" : 0
+		        },
+				{
+				    "correct": 2,
+				    "content" : [
+				        "Ethiopia",
+				        "Nigeria",
+				        "Zambia",
+				        "Chad"
+				    ],
+				    "question": "Which of these African countries is situated south of the equator?"
+				}
+		    ]
+		}
+	]
+}
