@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Document</title>
+    <style>body {
+      background-image: url("parfumer.jpg");
+      max-width: 100vh;
+      background-size: cover;
+      display: flex;
+  }
+  
+  svg {
+    font-family: 'Russo One', sans-serif;
+    position: absolute; 
+    width: 80%; height: 80%;
+  }
+  svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke: #ffffff;
+    font-size: 75px;
+  }
+  @keyframes stroke {
+    0%   {
+      fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    }
+    70%  {fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255); }
+    80%  {fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255); stroke-width: 3; }
+    100% {
+      fill: rgb(255, 255, 255); stroke: rgba(54,95,160,0); 
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }
+  
+  
+  .social-icons a{
+    
+    color:#ffffff;
+    line-height:30px;
+    font-size:30px;
+    margin: 0 5px;
+    text-decoration:none;
+    
+  }
+  .social-icons a i{
+    line-height:30px;
+    font-size:30px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+  .social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000fdf9d;
+    color:aqua;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }</style>
+</head>
+<body>
+   
+
+<svg viewBox="0 0 1320 300">
+  <text x="30%" y="0%" dy=".35em" text-anchor="middle">
+    emerald-parfum
+  </text>
+</svg> 
+<div class="social-icons">
+  <a href="#"  title="facebook"> 
+    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+  </a>
+  <a href="#" title="twitter"> 
+    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+  </a>
+  <a href="#" title="instagram">  
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+  </a>
+  <a href="#" title="youtube">
+    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+  </a>
+  <a href="#" title="linkedin">
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+  </a>
+  <a href="#" title="pinterest">
+    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+  </a>
+  <a href="#" title="camera">
+    <i class="fa fa-camera-retro" aria-hidden="true"></i>
+  </a>
+</div>
+</body>
+
+</body>
+</html>
