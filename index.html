@@ -1,48 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
-    
-    <title>Document</title>
-   
+<meta charset="utf-8">
+<style>
+    #sonuc {
+        font-size: 25px;
+        color: blueviolet;
+        
+    }
+    #btn {
+        font-size: 20px;
+    }
+    #txtreqem {
+        font-size: 20px;
+    }
+</style>
+<title>Untitled Document</title>
 </head>
+ 
 <body>
-   
-
-<svg viewBox="0 0 1320 300">
-  <text x="30%" y="0%" dy=".35em" text-anchor="middle">
-    emerald-parfum
-  </text>
-</svg> 
-<div class="social-icons">
-  <a href="#"  title="facebook"> 
-    <i class="fa fa-facebook-square" aria-hidden="true"></i>
-  </a>
-  <a href="#" title="twitter"> 
-    <i class="fa fa-twitter-square" aria-hidden="true"></i>
-  </a>
-  <a href="#" title="instagram">  
-    <i class="fa fa-instagram" aria-hidden="true"></i>
-  </a>
-  <a href="#" title="youtube">
-    <i class="fa fa-youtube-square" aria-hidden="true"></i>
-  </a>
-  <a href="#" title="linkedin">
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-  </a>
-  <a href="#" title="pinterest">
-    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
-  </a>
-  <a href="#" title="camera">
-    <i class="fa fa-camera-retro" aria-hidden="true"></i>
-  </a>
-</div>
-</body>
-
+    <h2>Eyni vaxtda bir neçə rəqəmin əməliyyatı</h2>
+    <input type="number" id="txtreqem" placeholder="Bir rəqəm yaz.">
+    <button id="btn">Hesabla</button>
+    <div id="sonuc"></div>
+ 
+    <script>
+        var btnHesapla=document.getElementById("btn");
+ 
+        btnHesapla.onclick=function(){
+            var reqem=Number(document.getElementById("txtreqem").value);
+            var cem=1*reqem;
+            var cem2=2*reqem;
+            var cem3=3*reqem;
+            var cem4=4*reqem;
+            var cem5=5*reqem;
+            var cem6=6*reqem;
+            var cem7=7*reqem;
+            var cem8=8*reqem;
+            var cem9=9*reqem;
+            var cem10=10*reqem;
+            document.getElementById("sonuc").innerHTML="Rəqəmi 1 ə vur = "+cem+"<br>"+"Rəqəmi 2 yə vur  = "+cem2+ "<br>"+"Rəqəmi 3 ə vur  = " +cem3+
+            "<br>"+"Rəqəmi 4 ə vur  = " +cem4+ "<br>"+"Rəqəmi 5 ə vur  = " +cem5+ "<br>"+"Rəqəmi 6 ya vur  = " +cem6+ "<br>"+"Rəqəmi 7 ə vur  = " +cem7+
+            "<br>"+"Rəqəmi 8 ə vur  = " +cem8+ "<br>"+"Rəqəmi 9 a vur  = " +cem9+"<br>"+"Rəqəmi 10 a vur  = " +cem10;
+        }
+        
+    </script>
 </body>
 </html>
